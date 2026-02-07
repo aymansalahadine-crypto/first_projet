@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yango</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <h1 class="logo">YANGO</h1>
+        <div class="menu">☰</div>
+      </header>
+
+      <!-- Location Section -->
+      <section class="location">
+        <div class="location-icon">📍</div>
+        <div class="location-content">
+          <p class="location-title">Activez les services de géolocalisation</p>
+          <p class="location-subtitle">Nous ne savons pas où vous êtes</p>
+        </div>
+        <div class="location-btns">
+          <button class="btn-gray">Saisir adresse</button>
+          <button class="btn-red">Configurer</button>
+        </div>
+      </section>
+
+      <!-- Services Grid -->
+      <section class="services">
+        <div class="service-card">
+          <div
+            class="service-image"
+            style="
+              background: linear-gradient(135deg, #ffd700 0%, #ffa500 100%);
+            "
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2331/2331966.png"
+              alt="shopping bag"
+            />
+          </div>
+          <div class="service-name">Achat & Vente</div>
+        </div>
+
+        <div class="service-card">
+          <div
+            class="service-image"
+            style="
+              background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+            "
+          >
+            <span class="badge">-40%</span>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
+              alt="food"
+            />
+          </div>
+          <div class="service-name">Food</div>
+        </div>
+
+        <div class="service-card">
+          <div
+            class="service-image"
+            style="
+              background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%);
+            "
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2769/2769339.png"
+              alt="delivery"
+            />
+          </div>
+          <div class="service-name">Livraison</div>
+        </div>
+
+        <div class="service-card">
+          <div
+            class="service-image"
+            style="
+              background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            "
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3097/3097161.png"
+              alt="car"
+            />
+          </div>
+          <div class="service-name">
+            Courses <span class="small-text">• à partir de 4 min</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Shortcuts -->
+      <section class="shortcuts">
+        <div class="shortcut-item">
+          <div
+            class="shortcut-icon"
+            style="
+              background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+            "
+          >
+            <span class="corner-badge">LIVRAISON GRATUITE</span>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2913/2913133.png"
+              alt="supermarket"
+            />
+          </div>
+          <div class="shortcut-name">Supermarchés</div>
+        </div>
+
+        <div class="shortcut-item">
+          <div
+            class="shortcut-icon"
+            style="
+              background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            "
+          >
+            <span style="color: white; font-size: 24px">★</span>
+          </div>
+          <div class="shortcut-name">Lieux</div>
+        </div>
+
+        <div class="shortcut-item">
+          <div
+            class="shortcut-icon"
+            style="
+              background: linear-gradient(135deg, #ffd700 0%, #ffa500 100%);
+            "
+          >
+            <span style="font-size: 24px">▲</span>
+          </div>
+          <div class="shortcut-name">Navigateur</div>
+        </div>
+
+        <div class="shortcut-item">
+          <div
+            class="shortcut-icon"
+            style="
+              background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            "
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/411/411763.png"
+              alt="cargo"
+            />
+          </div>
+          <div class="shortcut-name">Cargo</div>
+        </div>
+
+        <div class="shortcut-item">
+          <div
+            class="shortcut-icon"
+            style="
+              background: linear-gradient(135deg, #ffd700 0%, #ffa500 100%);
+            "
+          >
+            <span style="font-size: 24px">🎮</span>
+          </div>
+          <div class="shortcut-name">Games</div>
+        </div>
+      </section>
+
+      <!-- Pagination dots -->
+      <div class="pagination">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+      </div>
+
+      <!-- Where to go -->
+      <section class="where-to">
+        <button class="where-btn">
+          <div class="car-icon">🚗</div>
+          <div class="where-text">Où allons-nous ?</div>
+          <div class="arrow">›</div>
+        </button>
+      </section>
+
+      <!-- History -->
+      <section class="history">
+        <div class="history-item">
+          <div class="history-icon">📍</div>
+          <div class="history-content">
+            <div class="history-name">Digital Garage</div>
+            <div class="history-address">
+              Quartier de la Djo...l, Cocody, Abidjan
+            </div>
+          </div>
+          <div class="history-time">50 min</div>
+        </div>
+
+        <div class="history-item">
+          <div class="history-icon">🛒</div>
+          <div class="history-content">
+            <div class="history-name">Cocovico</div>
+            <div class="history-address">Marche Cocovico, Abidjan</div>
+          </div>
+          <div class="history-time">40 min</div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
